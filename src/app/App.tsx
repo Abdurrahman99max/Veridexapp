@@ -1,6 +1,5 @@
+import { DesignSystemPage } from "./components/design-system/DesignSystemPage";
+
 export default function App() {
-  return (
-    <div className="size-full flex items-center justify-center">
-    </div>
-  );
+  return <DesignSystemPage />;
 }
